@@ -36,7 +36,7 @@ const MeetingTypeList = () => {
           title: "Please selecta date and time",
         });
 
-        return
+        return;
       }
       const id = crypto.randomUUID();
 
@@ -65,8 +65,8 @@ const MeetingTypeList = () => {
       }
 
       toast({
-        title: "Meeting Created"
-      })
+        title: "Meeting Created",
+      });
     } catch (err) {
       console.log(err);
 
